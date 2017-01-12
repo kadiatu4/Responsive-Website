@@ -1,6 +1,4 @@
-*{
-  /*border: 1px solid black;*/
-}
+
 .content{
   display: flex;
   flex-wrap: wrap;
@@ -25,7 +23,6 @@ h1, h2, h3, h4, h5 {
 
 header, nav, footer, section, article, div {
   box-sizing: border-box;
-
 }
 
 ul {
@@ -65,7 +62,6 @@ ul {
   width: 100%;
   margin-left: auto;
   margin-right: auto;
-
 }
 
 .header__logo {
@@ -231,13 +227,11 @@ main {
   width: 100%;
   float: left;
   padding-top: 1em;
-
 }
 
 .scores__table {
   width: 100%;
   border-collapse: collapse;
-
 }
 
 .scores__table th,
@@ -387,6 +381,7 @@ footer a {
   color: #333;
   padding: 1.5em;
 }
+
 /*
  *
  *Media Queries
@@ -422,6 +417,7 @@ footer a {
   .news__title {
     font-size: 18px;
   }
+
   .snippet__title {
     font-size: 16px;
   }
@@ -443,6 +439,7 @@ footer a {
   .scores, .recent-news {
     order: 1;
   }
+
 }
 
 @media screen and (min-width: 450px) {
@@ -475,6 +472,7 @@ footer a {
   .news__title {
     font-size: 18px;
   }
+
   .snippet__title {
     font-size: 18px;
   }
@@ -495,15 +493,23 @@ footer a {
   .scores {
     font-size: 14px;
   }
+
   .scores, .recent-news {
     order: 1;
   }
+
   .news, .weather {
     width: 50%;
   }
+
   .recent-news {
     width: 100%;
   }
+
+  .top-news {
+    margin-bottom: 20px;
+  }
+
 }
 
 @media screen and (min-width: 800px) {
@@ -560,6 +566,7 @@ footer a {
   .scores {
     font-size: 14px;
   }
+
   .top-news {
     width: 33.3%;
     order: 0;
